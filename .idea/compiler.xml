@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+      </profile>
+      <profile name="Annotation profile for xuecheng-plus-generator" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="E:/Work/dev/maven/maven_repository/org/projectlombok/lombok/1.18.8/lombok-1.18.8.jar" />
+        </processorPath>
+        <module name="xuecheng-content-service" />
+        <module name="xuecheng-plus-generator" />
+        <module name="xuecheng-content-api" />
+        <module name="xuecheng-plus-base" />
+        <module name="xuecheng-content-model" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="xuecheng-base" target="1.8" />
+      <module name="xuecheng-plus-system" target="1.8" />
+      <module name="xuecheng-plus-system-api" target="1.8" />
+      <module name="xuecheng-plus-system-model" target="1.8" />
+      <module name="xuecheng-plus-system-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
